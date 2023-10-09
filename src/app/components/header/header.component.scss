@@ -1,0 +1,225 @@
+.header {
+    background-color: #001524;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    font-size: 2rem;
+    padding: 2rem 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.search-box {
+    width: 30;
+    height: 30;
+    position: relative;
+}
+
+.input-search {
+    height: 40px;
+    width: 40px;
+    border-style: none;
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #22a6b3;
+    padding-right: 30px;
+    color: #fff;
+}
+
+.input-search::placeholder {
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.btn-search {
+    width: 40px;
+    height: 40px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #ffffff;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.p-button-bookmark {
+    color: #FFB000;
+    border-color: #FFB000;
+    border-width: 2px;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.p-button-bars {
+    color: white;
+    border: none;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.p-button-bookmark,
+.p-button-bars:hover {
+    background-color: transparent;
+}
+
+.nav {
+    color: white;
+    position: fixed;
+    background-color: #001524;
+    height: 100vh;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    overflow-y: auto;
+    transform: translateX(-350px);
+    font-weight: bold;
+}
+
+.nav-show {
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    background-color: #001524;
+    height: 100vh;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    overflow-y: auto;
+    transform: translateX(-10px);
+    padding: 50px 30px;
+
+    .nav-list ul {
+        list-style-type: none;
+    }
+
+    .nav-list ul li {
+        text-decoration: none;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .nav-list ul li a {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .nav-list ul li a:hover {
+        color: #FFB000;
+    }
+
+    .nav-list ul li i {
+        margin-left: 10px;
+    }
+
+    .active {
+        color: #FFB000;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 1rem;
+        padding: 2rem 2rem;
+    }
+
+    .header {
+        height: 60px;
+    }
+
+    .nav-show {
+        transform: translateY(-20px);
+        height: 100%;
+        z-index: 1000;
+        width: 250px;
+        padding: 30px 10px;
+        transform: translateX(-13px);
+
+        .nav-list {
+            margin-top: 4rem;
+        }
+
+        .nav-list ul li {
+            text-decoration: none;
+            padding-bottom: 10px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .input-search {
+        height: 30px;
+        width: 30px;
+        padding-right: 20px;
+    }
+
+    .btn-search {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .btn-search:focus~.input-search {
+        width: 150px;
+    }
+
+    .input-search:focus {
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .input-search::placeholder {
+        font-size: 10px;
+    }
+
+    .p-button-bookmark {
+        height: 30px;
+        width: 30px;
+    }
+
+}

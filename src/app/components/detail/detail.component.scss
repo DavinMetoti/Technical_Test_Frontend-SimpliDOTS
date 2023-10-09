@@ -1,0 +1,148 @@
+.container {
+    margin-top: 8rem;
+}
+
+.title-movie {
+    color: #FFB000;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.date-movie {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.deskription {
+    text-align: justify;
+    color: white;
+}
+
+.title-genre {
+    font-size: 1rem;
+    color: #FFB000;
+    font-weight: bold;
+    padding: 10px 10px 10px 0;
+}
+
+.badge {
+    border: solid;
+    border-width: 2px;
+    border-color: #FFB000;
+    color: #FFB000;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 5px 10px;
+    padding-block: 10;
+    border-radius: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.btn-list button {
+    line-height: 1rem;
+    width: 7rem;
+    padding: 5px 10px;
+    border: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-list button:disabled {
+    opacity: 60%;
+}
+
+.btn-list button i {
+    color: white;
+    font-size: 10px;
+}
+
+.button-tonton {
+    background: #FFB000;
+    border-radius: 10px;
+    box-shadow: #FFB000 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 30px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
+.button-tonton:hover {
+    background: #bc8000;
+}
+
+.text-white {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .title-movie {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .date-movie {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .badge {
+        padding: 3px 7px;
+        font-size: 10px;
+    }
+
+    .title-genre {
+        font-size: 1rem;
+        color: #FFB000;
+        font-weight: bold;
+        padding: 10px 5px 10px 0;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+
+    .title-movie {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .date-movie {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .badge {
+        padding: 3px 7px;
+        font-size: 10px;
+    }
+
+    .title-genre {
+        font-size: 1rem;
+        color: #FFB000;
+        font-weight: bold;
+        padding: 10px 5px 10px 0;
+    }
+}

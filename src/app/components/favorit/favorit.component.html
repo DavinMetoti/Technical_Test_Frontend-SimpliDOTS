@@ -1,0 +1,45 @@
+<p-toast></p-toast>
+<app-header></app-header>
+
+<div class="container mt-8">
+    <div class="not-found text-center">
+        <div *ngIf="allMovie.length == 0">
+            No movies added!
+        </div>
+        <div *ngIf="allMovie.length > 0">
+            List Your Favorit Movie
+        </div>
+    </div>
+
+    <div class="p-fluid mt-2" *ngIf="allMovie.length > 0">
+        <div class="col-12">
+            <div class="grid">
+                <div class="col-6 lg:col-2 md:col-6" *ngFor="let movie of allMovie">
+                    <a (click)="detailRoute(movie)">
+                        <div class="field">
+                            <div>
+                                <img class="shadow-7" src="{{urlImg + movie.poster_path}}" alt="{{movie.title}}"
+                                    style="border-radius: 10px;" width="100%" />
+                            </div>
+                            <div class=" text-center">
+                                <p class="title-movie">{{movie.title}}</p>
+                            </div>
+                            <div class="mt-2 flex justify-content-between">
+                                <div class="mt-1">
+                                    <p-rating [(ngModel)]="movie.rate" [readonly]="true" [cancel]="false"
+                                        size="small"></p-rating>
+                                </div>
+                                <div>
+                                    <button class="mr-2" pTooltip="Unwacthlist" (click)="favorit(movie)">
+                                        <i class="pi pi-trash"></i>
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
