@@ -59,13 +59,13 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
 
 9. **Daftar Film Favorit:** Menyimpan dan menampilkan daftar film favorit pengguna dengan baik.
    - Memisahkan komponen atau page favorit menjadi komponen sendiri untuk membuat pengguna lebih mudah untuk menambah atau menghapus favorit.
-![Favorit](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/detail.png)
+![Favorit](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/favorit.png)
 11. **Responsif:** Tampilan harus responsif untuk mendukung penggunaan di berbagai perangkat, seperti desktop, tablet, dan ponsel.
     - Setiap konfigurasi style width dan height memperhitungkan lebar layar dan otomatis menyesuaikan dengan layar.
-
+![Local](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/responsive.png)
 13. **Penyimpanan Data Favorit secara Lokal:** Mengimplementasikan penyimpanan data favorit pengguna secara lokal agar tetap tersedia saat pengguna mengakses kembali aplikasi.
     - Menggunakan local storage fitur browser untuk menyimpan data favorit.
-
+![Local](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/local.png)
 15. **Interaksi Pengguna:** Memastikan interaksi pengguna yang nyaman dan intuitif dalam menandai dan menghapus film dari daftar favorit.
     - Button dan navigasi dibuat sefleksibel mungkin untuk meminimalkan jumlah klik.
 
@@ -94,7 +94,7 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
    - Menggunakan unit test melalui Angular Karma.
 
 7. **Implementasi PWA (Progressive Web App) menggunakan fitur caching, mode offline, dll.**
-   - Implementasi PWA dengan menambahkan `ng add @angular/pwa`.
+   - Implementasi PWA dengan menambahkan `ng add @angular/pwa` dan konfigurasi service workernya.
 
 9. **Mengimplementasikan load on scroll / Infinite scrolling.**
    - Setiap melakukan scroll website akan otomatis meload API TMDb.
