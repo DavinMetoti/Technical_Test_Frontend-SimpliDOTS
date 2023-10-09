@@ -21,13 +21,23 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
     npm install
     ```
 
-3. Jalankan proyek Angular dengan perintah:
+2. Jalankan proyek Angular dengan perintah:
 
     ```bash
     ng serve
     ```
 
-4. Proyek akan dijalankan dalam mode pengembangan dan dapat diakses melalui browser dengan membuka `http://localhost:4200/`.
+3. Proyek akan dijalankan dalam mode pengembangan dan dapat diakses melalui browser dengan membuka `http://localhost:4200/`.
+
+## Langkah 2: Deployment
+
+1. Install dependensi proyek dengan perintah:
+   ```bash
+    ng build -prod
+    ```
+
+2. Akan muncul file dst yang digunakan untuk deploy kedalam hosting
+
 
 ## Catatan Tambahan
 
@@ -41,6 +51,7 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
 
 5. **Tampilan Film:** Menampilkan daftar film dengan informasi penting seperti poster, judul, dan deskripsi.
    - Menampilkan film berdasarkan API TMDb pada dashboard atau halaman pertama website.
+![Logo Project](https://raw.githubusercontent.com/DavinMetoti/Technical-Test-Frontend/main/src/assets/screenshoot.jpg)
 
 8. **Tampilan Detail Film:** Menyediakan halaman detail untuk setiap film yang berisi informasi lebih lanjut.
    - Memiliki komponen atau page khusus detail yang menyesuaikan dengan film yang dipilih.
