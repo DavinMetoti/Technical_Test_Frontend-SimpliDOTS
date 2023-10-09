@@ -51,15 +51,15 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
 
 5. **Tampilan Film:** Menampilkan daftar film dengan informasi penting seperti poster, judul, dan deskripsi.
    - Menampilkan film berdasarkan API TMDb pada dashboard atau halaman pertama website.
-![Dashboard](https://raw.githubusercontent.com/DavinMetoti/Technical-Test-Frontend/main/src/assets/screenshoot/dashboard.png)
+![Dashboard](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/dashboard.png)
 
 8. **Tampilan Detail Film:** Menyediakan halaman detail untuk setiap film yang berisi informasi lebih lanjut.
    - Memiliki komponen atau page khusus detail yang menyesuaikan dengan film yang dipilih.
-![Detai](https://raw.githubusercontent.com/DavinMetoti/Technical-Test-Frontend/main/src/assets/screenshoot/detail.png)
+![Detai](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/detail.png)
 
 9. **Daftar Film Favorit:** Menyimpan dan menampilkan daftar film favorit pengguna dengan baik.
    - Memisahkan komponen atau page favorit menjadi komponen sendiri untuk membuat pengguna lebih mudah untuk menambah atau menghapus favorit.
-![Favorit](https://raw.githubusercontent.com/DavinMetoti/Technical-Test-Frontend/main/src/assets/screenshoot/detail.png)
+![Favorit](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/detail.png)
 11. **Responsif:** Tampilan harus responsif untuk mendukung penggunaan di berbagai perangkat, seperti desktop, tablet, dan ponsel.
     - Setiap konfigurasi style width dan height memperhitungkan lebar layar dan otomatis menyesuaikan dengan layar.
 
