@@ -61,8 +61,10 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
    - Memisahkan komponen atau page favorit menjadi komponen sendiri untuk membuat pengguna lebih mudah untuk menambah atau menghapus favorit.
 ![Favorit](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/favorit.png)
 11. **Responsif:** Tampilan harus responsif untuk mendukung penggunaan di berbagai perangkat, seperti desktop, tablet, dan ponsel.
-    - Setiap konfigurasi style width dan height memperhitungkan lebar layar dan otomatis menyesuaikan dengan layar.
-![Local](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/responsive.png)
+- Setiap konfigurasi style width dan height memperhitungkan lebar layar dan otomatis menyesuaikan dengan layar.
+
+   ![Local](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/responsive.png)
+
 13. **Penyimpanan Data Favorit secara Lokal:** Mengimplementasikan penyimpanan data favorit pengguna secara lokal agar tetap tersedia saat pengguna mengakses kembali aplikasi.
     - Menggunakan local storage fitur browser untuk menyimpan data favorit.
 ![Local](https://raw.githubusercontent.com/DavinMetoti/Technical_Test-_Frontend-SimpliDOTS/main/src/assets/screenshoot/local.png)
