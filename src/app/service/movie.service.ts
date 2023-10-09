@@ -22,7 +22,6 @@ export class MovieService {
       const existingMovieIndex = this.favorit.findIndex((m) => m.id === movie.id);
 
       if (existingMovieIndex === -1) {
-        // Movie is not in favorit, add it
         this.favorit.push(movie);
         localStorage.setItem('favorit', JSON.stringify(this.favorit));
 
@@ -32,7 +31,6 @@ export class MovieService {
           detail: "Movies have been added favorites",
         });
       } else {
-        // Movie is already in favorit, remove it
         this.favorit.splice(existingMovieIndex, 1);
         localStorage.setItem('favorit', JSON.stringify(this.favorit));
 

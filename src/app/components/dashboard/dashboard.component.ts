@@ -65,8 +65,6 @@ export class DashboardComponent implements OnInit {
   onScroll(event: Event): void {
     const scrollPosition = window.scrollY + window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
-
-    // Load more data when the user has scrolled to the bottom
     if (scrollPosition >= documentHeight - 200 && !this.loading) {
       this.loadData();
     }

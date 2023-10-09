@@ -11,14 +11,6 @@
                         (keydown.enter)="dashboard.search(dashboard.keyword)" [(ngModel)]="dashboard.keyword"
                         placeholder="Type to Search...">
                 </div>
-                <!-- <div class="search-box mr-2 mt-2">
-                    <button pButton icon="pi pi-bookmark" (click)="route.navigate(['/favorit']);" pTooltip="favorit"
-                        class="p-button-bookmark"></button>
-                </div>
-                <div class="search-box mt-2">
-                    <button pButton icon="pi pi-home" (click)="route.navigate(['/dashboard']);" pTooltip="dashboard"
-                        class="p-button-bookmark"></button>
-                </div> -->
                 <button pButton *ngIf="!navbar" icon="pi pi-bars" class="p-button-bars"
                     (click)="navbarclass()"></button>
                 <button pButton *ngIf="navbar" icon="pi pi-times" class="p-button-bars"
