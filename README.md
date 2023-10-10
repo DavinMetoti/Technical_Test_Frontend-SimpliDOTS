@@ -14,7 +14,7 @@ Sebelum memulai, pastikan bahwa Anda telah memenuhi prasyarat berikut:
     npm install -g @angular/cli
     ```
 
-## Langkah 2: Jalankan Proyek
+## Langkah 1: Jalankan Proyek
 
 1. Install dependensi proyek dengan perintah:
    ```bash
