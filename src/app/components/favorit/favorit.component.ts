@@ -21,11 +21,9 @@ export class FavoritComponent implements OnInit {
   ngOnInit() {
     this.movie = localStorage.getItem('favorit') || '';
     this.allMovie = JSON.parse(this.movie)
-    console.log(this.allMovie);
   }
 
   detailRoute(data: any) {
-    console.log(data);
     this.router.navigate(['/detail']);
     localStorage.setItem('detail', JSON.stringify(data));
   }

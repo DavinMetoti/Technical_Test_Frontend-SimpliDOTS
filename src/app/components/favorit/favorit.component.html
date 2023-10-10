@@ -1,7 +1,7 @@
 <p-toast></p-toast>
 <app-header></app-header>
 
-<div class="container mt-8">
+<div class="container">
     <div class="not-found text-center">
         <div *ngIf="allMovie.length == 0">
             No movies added!
@@ -24,13 +24,13 @@
                             <div class=" text-center">
                                 <p class="title-movie">{{movie.title}}</p>
                             </div>
-                            <div class="mt-2 flex justify-content-between">
-                                <div class="mt-1">
+                            <div class="mt-2 lg:flex lg:justify-content-between">
+                                <div class="mt-1 justify-content-center text-center">
                                     <p-rating [(ngModel)]="movie.rate" [readonly]="true" [cancel]="false"
                                         size="small"></p-rating>
                                 </div>
-                                <div>
-                                    <button class="mr-2" pTooltip="Unwacthlist" (click)="favorit(movie)">
+                                <div class="justify-content-center text-center">
+                                    <button class="mr-2 lg-mt-0 mt-1" pTooltip="Unwacthlist" (click)="favorit(movie)">
                                         <i class="pi pi-trash"></i>
                                     </button>
                                 </div>

@@ -20,7 +20,35 @@
     </div>
 </div>
 
-<div [ngClass]="{'nav': !navbar, 'nav-show': navbar}">
+
+<div class="card flex justify-content-center">
+    <p-sidebar [(visible)]="navbar">
+        <ng-template pTemplate="header">Menu</ng-template>
+        <ng-template pTemplate="content">
+            <div class="nav-list p-fluid">
+                <ul>
+                    <li><a (click)="home()">
+                            <div>Home</div><span><i class="pi pi-home"></i></span>
+                        </a></li>
+                    <li><a (click)="route.navigate(['/favorit']);">
+                            <div>Favorit</div><span><i class="pi pi-home"></i></span>
+                        </a></li>
+                </ul>
+                <hr>
+                <ul [hidden]="search_btn" *ngFor="let genre of movieGenres">
+                    <li [ngClass]="{'active': genre.id === actived.id}">
+                        <a (click)="checkActived(genre)">
+                            <div>{{ genre.genre }}</div>
+                            <span><i class="pi pi-circle"></i></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </ng-template>
+    </p-sidebar>
+</div>
+
+<!-- <div [ngClass]="{'nav': !navbar, 'nav-show': navbar}">
     <div class="nav-list p-fluid">
         <ul>
             <li><a (click)="home()">
@@ -40,4 +68,4 @@
             </li>
         </ul>
     </div>
-</div>
+</div> -->

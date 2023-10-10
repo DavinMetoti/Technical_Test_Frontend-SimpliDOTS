@@ -2,14 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { DashboardComponent } from '../dashboard/dashboard.component';
 import { Router } from '@angular/router';
 import { Location, PlatformLocation } from '@angular/common';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
-import { ApiService } from 'src/app/service/api.service';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  providers: [DashboardComponent, HttpClientModule, ApiService, HttpClient]
 })
 export class HeaderComponent implements OnInit {
 
@@ -54,7 +51,6 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
     this.getCurrentUrl() == "/dashboard" ? this.search_btn = false : this.search_btn = true;
-    console.log(this.getCurrentUrl());
   }
 
   home() {

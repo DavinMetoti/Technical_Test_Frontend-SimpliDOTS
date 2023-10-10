@@ -56,7 +56,6 @@ export class DashboardComponent implements OnInit {
   }
 
   detailRoute(data: any) {
-    console.log(data);
     this.router.navigate(['/detail']);
     localStorage.setItem('detail', JSON.stringify(data));
   }
@@ -71,7 +70,6 @@ export class DashboardComponent implements OnInit {
   }
 
   search(key: string) {
-    console.log(key);
 
     if (key == '') {
       this.ngOnInit()
@@ -91,10 +89,12 @@ export class DashboardComponent implements OnInit {
   }
 
   genreMovie(key: number) {
+
     this.api.genreMovie(key).then(
       (result: any) => {
         this.allMovie = [];
         this.allMovie = result.results
+
       }
     )
   }

@@ -4891,7 +4891,7 @@ p-treeselect.ng-invalid.ng-dirty>.p-treeselect {
 }
 
 .p-sidebar {
-  background: #ffffff;
+  background: #001524;
   color: #495057;
   border: 0 none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -4899,6 +4899,9 @@ p-treeselect.ng-invalid.ng-dirty>.p-treeselect {
 
 .p-sidebar .p-sidebar-header {
   padding: 1.25rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .p-sidebar .p-sidebar-header .p-sidebar-close,
@@ -4909,7 +4912,10 @@ p-treeselect.ng-invalid.ng-dirty>.p-treeselect {
   border: 0 none;
   background: transparent;
   border-radius: 50%;
-  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+  transition: #001524 0.2s, color 0.2s, box-shadow 0.2s;
+
+  text-align: right;
+  color: white;
 }
 
 .p-sidebar .p-sidebar-header .p-sidebar-close:enabled:hover,
@@ -4928,6 +4934,7 @@ p-treeselect.ng-invalid.ng-dirty>.p-treeselect {
 
 .p-sidebar .p-sidebar-header+.p-sidebar-content {
   padding-top: 0;
+  color: white;
 }
 
 .p-sidebar .p-sidebar-content {
