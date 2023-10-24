@@ -1,27 +1,27 @@
+<<<<<<< HEAD
 # dapp-movie
+=======
+# DAPP MOVIE
+>>>>>>> 059b075f62e179985b387eb7630629c85b8b28d0
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+Proyek ini telah dibuat dengan [Angular CLI](https://github.com/angular/angular-cli) versi 16.1.0.
 
-## Development server
+## Menjalankan aplikasi
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Jalankan `ng serve` untuk memulai server . Buka dengan url `http://localhost:4200/`. Aplikasi akan secara otomatis memuat ulang jika ada perubahan pada berkas sumber.
 
-## Code scaffolding
+## Membangun Aplikasi
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Jalankan `ng build` untuk membangun proyek. Berkas-berkas hasil pembangunan akan disimpan dalam direktori `dist/`.
 
-## Build
+## Menjalankan Unit Test
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Jalankan `ng test` untuk mengeksekusi uji unit melalui [Karma](https://karma-runner.github.io).
 
-## Running unit tests
+## Menjalankan Uji End-to-End
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Jalankan `ng e2e` untuk mengeksekusi uji end-to-end melalui platform pilihan Anda. Untuk menggunakan perintah ini, Anda perlu terlebih dahulu menambahkan paket yang mengimplementasikan kemampuan pengujian end-to-end.
 
-## Running end-to-end tests
+## Menjalankan Aplikasi Web Progresif (PWA)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Jalankan `npm run start-pwa` untuk menjalankan aplikasi web progresif.
