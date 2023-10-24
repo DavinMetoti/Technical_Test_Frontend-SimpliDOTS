@@ -17,6 +17,7 @@ export class DashboardComponent implements OnInit {
     loading = false;
     title: string;
     configuration: any;
+    language: any;
 
 
     constructor(
@@ -26,18 +27,31 @@ export class DashboardComponent implements OnInit {
     ) { }
 
     ngOnInit() {
+        this.language = JSON.parse(localStorage.getItem('language'))
         this.route.params.subscribe(params => {
             const category = params['category'];
 
             if (category === 'now_playing') {
                 this.patch = category;
-                this.title = 'Now Playing'
+                if (this.language.iso_639_1 == 'id') {
+                    this.title = 'SEDANG TAYANG'
+                } else {
+                    this.title = 'NOW PLAYING'
+                }
             } else if (category === 'popular') {
                 this.patch = category;
-                this.title = 'Popular'
+                if (this.language.iso_639_1 == 'id') {
+                    this.title = 'POPULER'
+                } else {
+                    this.title = 'PUPULAR'
+                }
             } else if (category === 'upcoming') {
                 this.patch = category;
-                this.title = 'Upcoming'
+                if (this.language.iso_639_1 == 'id') {
+                    this.title = 'SEGERA TAYANG'
+                } else {
+                    this.title = 'UP COMING'
+                }
             }
 
             this.resetComponent();
@@ -81,7 +95,7 @@ export class DashboardComponent implements OnInit {
     getConfiguration() {
         this.api.config().subscribe(data => {
             this.configuration = data;
-            this.img = this.configuration.images.secure_base_url + '/original/';
+            this.img = this.configuration.images.secure_base_url + 'w342/';
         });
     }
 }

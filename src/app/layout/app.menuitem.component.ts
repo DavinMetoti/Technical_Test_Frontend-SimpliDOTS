@@ -7,7 +7,6 @@ import { MenuService } from './app.menu.service';
 import { LayoutService } from './service/app.layout.service';
 
 @Component({
-    // eslint-disable-next-line @angular-eslint/component-selector
     selector: '[app-menuitem]',
     template: `
 		<ng-container>
@@ -108,18 +107,15 @@ export class AppMenuitemComponent implements OnInit, OnDestroy {
     }
 
     itemClick(event: Event) {
-        // avoid processing disabled items
         if (this.item.disabled) {
             event.preventDefault();
             return;
         }
 
-        // execute command
         if (this.item.command) {
             this.item.command({ originalEvent: event, item: this.item });
         }
 
-        // toggle active state
         if (this.item.items) {
             this.active = !this.active;
         }
@@ -131,7 +127,7 @@ export class AppMenuitemComponent implements OnInit, OnDestroy {
         return this.root ? 'expanded' : (this.active ? 'expanded' : 'collapsed');
     }
 
-    @HostBinding('class.active-menuitem') 
+    @HostBinding('class.active-menuitem')
     get activeClass() {
         return this.active && !this.root;
     }

@@ -25,7 +25,8 @@ export class DetailComponent implements OnInit {
   genres: { id: number, name: string }[] = [];
   configuration: any;
   recommend = [];
-  visible = false
+  visible = false;
+  language: any;
 
   constructor(
     public layoutService: LayoutService,
@@ -39,6 +40,7 @@ export class DetailComponent implements OnInit {
       this.id = params['id'];
       this.resetComponent();
     });
+    this.language = JSON.parse(localStorage.getItem('language'));
   }
 
   loadMovie(id) {
@@ -63,7 +65,7 @@ export class DetailComponent implements OnInit {
   getConfiguration() {
     this.api.config().subscribe(data => {
       this.configuration = data;
-      this.img = this.configuration.images.secure_base_url + '/original/';
+      this.img = this.configuration.images.secure_base_url + 'w500/';
     });
   }
 

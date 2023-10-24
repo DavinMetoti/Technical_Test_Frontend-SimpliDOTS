@@ -1,28 +1,30 @@
-<h2>Result {{title}}</h2>
-<p>Search</p>
+<h2>{{language.iso_639_1 == 'id'? 'HASIL' : 'RESULT'}} {{title}}</h2>
+<p>{{language.iso_639_1 == 'id'? 'PENCARIAN' : 'SEARCH' }}</p>
 <div class="p-fluid">
     <div class="col-12">
         <div class="grid">
             <div class="col-6 lg:col-3" *ngFor="let movieList of movie">
                 <a [routerLink]="['/detail/movie', movieList.id]">
                     <div class="field">
-                        <img [src]="img + movieList.poster_path" [alt]="movieList.title" style="border-radius: 10px;"
-                            loading="lazy" width="100%">
+                        <img [src]="movieList.poster_path != null ? img + movieList.poster_path : './assets/layout/images/no-poster.jpg'"
+                            [alt]="movieList.title" style="border-radius: 10px;" loading="lazy" width="100%">
                         <div class=" text-center">
                             <h5 class="title-movie">{{movieList.title}}</h5>
                         </div>
                         <div class="mt-2 text-center">
-                            <div>
-                                <p-rating [(ngModel)]="movieList.rate" [readonly]="true" [cancel]="false"
-                                    size="small"></p-rating>
-                            </div>
-
+                            <p-rating [(ngModel)]="movieList.rate" [readonly]="true" [cancel]="false"
+                                size="small"></p-rating>
                         </div>
                     </div>
                 </a>
             </div>
         </div>
     </div>
+</div>
+
+<div *ngIf="movie.length == 0" class="text-center justify-content-center">
+    <img src="./assets/layout/images/no-added.svg" width="30%" alt="No Add">
+    <h5>Result not found</h5>
 </div>
 
 <div class="justify-content-center text-center">

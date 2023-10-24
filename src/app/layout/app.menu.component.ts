@@ -12,6 +12,7 @@ export class AppMenuComponent implements OnInit {
 
     model: any[] = [];
     genres: { id: number, name: string }[] = [];
+    language: any;
 
     constructor(
         public layoutService: LayoutService,
@@ -19,35 +20,55 @@ export class AppMenuComponent implements OnInit {
     ) { }
 
     ngOnInit() {
-        this.get_genre('en');
-    }
-
-    get_genre(language) {
-        this.api.genreApi(language).subscribe((data: { genres: { id: number; name: string }[] }) => {
+        this.language = JSON.parse(localStorage.getItem('language'))
+        this.api.genreApi(this.language).subscribe((data: { genres: { id: number; name: string }[] }) => {
             this.genres = data.genres;
             this.buildMenu();
         });
     }
 
     buildMenu() {
-        this.model = [
-            {
-                label: 'CATEGORY',
-                items: [
-                    { label: 'NOW PLAYING', routerLink: ['/list/category/now_playing'] },
-                    { label: 'POPULAR', routerLink: ['/list/category/popular'] },
-                    { label: 'UPCOMING', routerLink: ['/list/category/upcoming'] },
-                ]
-            },
-            {
-                label: 'Genre',
-                items: this.genres.map(genre => {
-                    return {
-                        label: new UpperCasePipe().transform(genre.name),
-                        routerLink: ['/list/genre', genre.id]
-                    };
-                })
-            },
-        ];
+
+        if (this.language.iso_639_1 == 'id') {
+            this.model = [
+                {
+                    label: 'KATEGORI',
+                    items: [
+                        { label: 'SEDANG TAYANG', routerLink: ['/list/category/now_playing'] },
+                        { label: 'POPPOPULER', routerLink: ['/list/category/popular'] },
+                        { label: 'SEGERA', routerLink: ['/list/category/upcoming'] },
+                    ]
+                },
+                {
+                    label: 'GENRE',
+                    items: this.genres.map(genre => {
+                        return {
+                            label: new UpperCasePipe().transform(genre.name),
+                            routerLink: ['/list/genre', genre.id]
+                        };
+                    })
+                },
+            ];
+        } else {
+            this.model = [
+                {
+                    label: 'CATEGORY',
+                    items: [
+                        { label: 'NOW PLAYING', routerLink: ['/list/category/now_playing'] },
+                        { label: 'POPULAR', routerLink: ['/list/category/popular'] },
+                        { label: 'UPCOMING', routerLink: ['/list/category/upcoming'] },
+                    ]
+                },
+                {
+                    label: 'GENRES',
+                    items: this.genres.map(genre => {
+                        return {
+                            label: new UpperCasePipe().transform(genre.name),
+                            routerLink: ['/list/genre', genre.id]
+                        };
+                    })
+                },
+            ];
+        }
     }
 }

@@ -1,22 +1,19 @@
 <h2>{{title}}</h2>
-<p>Category</p>
+<p>{{language.iso_639_1 == 'id'? 'KATEGORI' : 'CATEGORY' }}</p>
 <div class="p-fluid">
     <div class="col-12">
         <div class="grid">
             <div class="col-6 lg:col-3" *ngFor="let movieList of movie">
                 <a [routerLink]="['/detail/movie', movieList.id]">
                     <div class="field">
-                        <img [src]="img + movieList.poster_path" [alt]="movieList.title" style="border-radius: 10px;"
-                            loading="lazy" width="100%">
+                        <img [src]="movieList.poster_path != null ? img + movieList.poster_path : './assets/layout/images/no-poster.jpg'"
+                            [alt]="movieList.title" style="border-radius: 10px;" loading="lazy" width="100%">
                         <div class=" text-center">
                             <h5 class="title-movie">{{movieList.title}}</h5>
                         </div>
                         <div class="mt-2 text-center">
-                            <div>
-                                <p-rating [(ngModel)]="movieList.rate" [readonly]="true" [cancel]="false"
-                                    size="small"></p-rating>
-                            </div>
-
+                            <p-rating [(ngModel)]="movieList.rate" [readonly]="true" [cancel]="false"
+                                size="small"></p-rating>
                         </div>
                     </div>
                 </a>

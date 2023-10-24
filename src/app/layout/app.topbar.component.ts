@@ -1,18 +1,25 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
 import { LayoutService } from "./service/app.layout.service";
 import { ApiService } from '../package/service/api.service';
 import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment';
 
 @Component({
     selector: 'app-topbar',
     templateUrl: './app.topbar.component.html'
 })
-export class AppTopBarComponent {
+export class AppTopBarComponent implements OnInit {
 
     items!: MenuItem[];
     keyword: string;
     isLogin = false;
+    languages = [];
+    selectedLanguage = {
+        iso_639_1: "",
+        english_name: "",
+        name: ""
+    }
 
     @ViewChild('menubutton') menuButton!: ElementRef;
 
@@ -23,14 +30,17 @@ export class AppTopBarComponent {
     constructor(
         public layoutService: LayoutService,
         public api: ApiService,
-        public route: Router
-    ) {
+        public route: Router,
+    ) { }
+
+    ngOnInit() {
         const requestToken = localStorage.getItem('accessToken')
         if (requestToken) {
             this.isLogin = true;
         } else {
             this.isLogin = false;
         }
+        this.getLanguage()
     }
 
 
@@ -68,7 +78,7 @@ export class AppTopBarComponent {
 
     login() {
         this.api.requestToken().subscribe((requestToken: string) => {
-            const authUrl = `https://www.themoviedb.org/authenticate/${requestToken}?redirect_to=http://localhost:4200/`;
+            const authUrl = `${environment.baseUrl}/authenticate/${requestToken}?redirect_to=${window.location.origin}`;
             localStorage.setItem('accessToken', requestToken)
             window.location.href = authUrl;
             this.getSession
@@ -109,7 +119,24 @@ export class AppTopBarComponent {
         localStorage.removeItem('accessToken');
         localStorage.removeItem('account');
         this.isLogin = false;
+        window.location.reload();
     }
+
+    getLanguage() {
+        this.api.languageApi().subscribe((languageResponse: any) => {
+            this.languages = languageResponse;
+            const selectedLanguage = JSON.parse(localStorage.getItem('language'));
+            if (selectedLanguage) {
+                this.selectedLanguage = selectedLanguage;
+            }
+        });
+    }
+
+    setlanguage(params) {
+        localStorage.setItem('language', JSON.stringify(params));
+        window.location.reload()
+    }
+
 
 
 

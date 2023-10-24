@@ -15,6 +15,8 @@ import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
 import { DropdownModule } from 'primeng/dropdown';
 import { TooltipModule } from 'primeng/tooltip';
+import { OverlayPanelModule } from 'primeng/overlaypanel';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
     declarations: [
@@ -35,7 +37,9 @@ import { TooltipModule } from 'primeng/tooltip';
         RippleModule,
         RouterModule,
         DropdownModule,
-        TooltipModule
+        TooltipModule,
+        OverlayPanelModule,
+        ButtonModule
     ],
     exports: [AppLayoutComponent]
 })

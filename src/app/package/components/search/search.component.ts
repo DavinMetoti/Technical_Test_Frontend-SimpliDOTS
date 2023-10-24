@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   selector: 'app-search',
   templateUrl: './search.component.html'
 })
-export class SearchComponent {
+export class SearchComponent implements OnInit {
 
   data: any
   movie: Movie[] = [];
@@ -19,6 +19,7 @@ export class SearchComponent {
   title: string = '';
   keyword: string;
   configuration: any;
+  language: any;
 
   constructor(
     public layoutService: LayoutService,
@@ -27,6 +28,7 @@ export class SearchComponent {
   ) { }
 
   ngOnInit() {
+    this.language = JSON.parse(localStorage.getItem('language'))
     this.route.params.subscribe(params => {
       this.keyword = params['keyword'];
       this.title = params['keyword']
@@ -70,7 +72,7 @@ export class SearchComponent {
   getConfiguration() {
     this.api.config().subscribe(data => {
       this.configuration = data;
-      this.img = this.configuration.images.secure_base_url + '/original/';
+      this.img = this.configuration.images.secure_base_url + 'w342/';
     });
   }
 

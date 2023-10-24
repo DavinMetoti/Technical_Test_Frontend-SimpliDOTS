@@ -20,6 +20,7 @@ export class GenreComponent implements OnInit {
   id: number;
   genres: { id: number, name: string }[] = [];
   configuration: any
+  language: any;
 
   constructor(
     public layoutService: LayoutService,
@@ -28,10 +29,11 @@ export class GenreComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.language = JSON.parse(localStorage.getItem('language'))
     this.route.params.subscribe(params => {
       this.id = params['id'];
 
-      this.genreList();
+      this.genreList(this.language);
       this.resetComponent();
     });
   }
@@ -69,8 +71,8 @@ export class GenreComponent implements OnInit {
     }
   }
 
-  genreList() {
-    this.api.genreApi('en').subscribe((data: { genres: { id: number; name: string }[] }) => {
+  genreList(language) {
+    this.api.genreApi(language).subscribe((data: { genres: { id: number; name: string }[] }) => {
       this.genres = data.genres;
       for (let i = 0; i < this.genres.length; i++) {
         if (this.genres[i].id == this.id) {
@@ -84,7 +86,7 @@ export class GenreComponent implements OnInit {
   getConfiguration() {
     this.api.config().subscribe(data => {
       this.configuration = data;
-      this.img = this.configuration.images.secure_base_url + '/original/';
+      this.img = this.configuration.images.secure_base_url + 'w342/';
     });
   }
 

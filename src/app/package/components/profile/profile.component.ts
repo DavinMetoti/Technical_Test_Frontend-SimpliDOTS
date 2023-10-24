@@ -1,6 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ApiService } from '../../service/api.service';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Movie } from '../../api/movie';
 import { MessageService } from 'primeng/api';
 
@@ -21,20 +21,27 @@ export class ProfileComponent implements OnInit {
   title: string = '';
   id: number;
   img: string;
+  language: any;
 
 
   constructor(
     public api: ApiService,
     private route: ActivatedRoute,
     private message: MessageService,
+    private router: Router
   ) { }
 
 
   ngOnInit() {
+    this.language = JSON.parse(localStorage.getItem('language'))
     this.route.params.subscribe(params => {
       this.id = params['id'];
       this.resetComponent();
     });
+    const checkAccount = localStorage.getItem('account')
+    if (!checkAccount) {
+      this.router.navigate([window.location.origin + 'list/category/now_playing'])
+    }
   }
 
   detailProfile(id) {
@@ -42,8 +49,6 @@ export class ProfileComponent implements OnInit {
       this.loading = true;
       this.api.detailAccount(id).subscribe((account: any) => {
         this.data = account;
-        console.log(this.data);
-
         this.loading = false;
       });
     }
@@ -58,7 +63,6 @@ export class ProfileComponent implements OnInit {
       }
       this.movie = this.movie.concat(data.results);
       this.pages = page;
-      console.log(this.movie);
       this.loading = false;
     });
   }
@@ -74,7 +78,7 @@ export class ProfileComponent implements OnInit {
   getConfiguration() {
     this.api.config().subscribe(data => {
       this.configuration = data;
-      this.img = this.configuration.images.secure_base_url + '/original/';
+      this.img = this.configuration.images.secure_base_url + 'w342/';
     });
   }
 
@@ -110,7 +114,6 @@ export class ProfileComponent implements OnInit {
         detail: 'To add Favorit'
       })
     })
-
   }
 
 }
