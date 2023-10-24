@@ -1,0 +1,1222 @@
+{
+    "result": [
+        {
+            "folded_name": "Afar (aa-AA)",
+            "native_name": "Afar",
+            "english_name": "Afar (aa-AA)",
+            "i18n_tag": "aa-AA"
+        },
+        {
+            "folded_name": "Abkhazian (ab-AB)",
+            "native_name": "Abkhazian",
+            "english_name": "Abkhazian (ab-AB)",
+            "i18n_tag": "ab-AB"
+        },
+        {
+            "folded_name": "Avestan (ae-AE)",
+            "native_name": "Avestan",
+            "english_name": "Avestan (ae-AE)",
+            "i18n_tag": "ae-AE"
+        },
+        {
+            "folded_name": "Afrikaans (af-ZA)",
+            "native_name": "Afrikaans",
+            "english_name": "Afrikaans (af-ZA)",
+            "i18n_tag": "af-ZA"
+        },
+        {
+            "folded_name": "Akan (ak-AK)",
+            "native_name": "Akan",
+            "english_name": "Akan (ak-AK)",
+            "i18n_tag": "ak-AK"
+        },
+        {
+            "folded_name": "Amharic (am-AM)",
+            "native_name": "Amharic",
+            "english_name": "Amharic (am-AM)",
+            "i18n_tag": "am-AM"
+        },
+        {
+            "folded_name": "Aragonese (an-AN)",
+            "native_name": "Aragonese",
+            "english_name": "Aragonese (an-AN)",
+            "i18n_tag": "an-AN"
+        },
+        {
+            "folded_name": "Arabic (ar-SA)",
+            "native_name": "Arabic",
+            "english_name": "Arabic (ar-SA)",
+            "i18n_tag": "ar-SA"
+        },
+        {
+            "folded_name": "Arabic (ar-AE)",
+            "native_name": "Arabic",
+            "english_name": "Arabic (ar-AE)",
+            "i18n_tag": "ar-AE"
+        },
+        {
+            "folded_name": "Assamese (as-AS)",
+            "native_name": "Assamese",
+            "english_name": "Assamese (as-AS)",
+            "i18n_tag": "as-AS"
+        },
+        {
+            "folded_name": "Avaric (av-AV)",
+            "native_name": "Avaric",
+            "english_name": "Avaric (av-AV)",
+            "i18n_tag": "av-AV"
+        },
+        {
+            "folded_name": "Aymara (ay-AY)",
+            "native_name": "Aymara",
+            "english_name": "Aymara (ay-AY)",
+            "i18n_tag": "ay-AY"
+        },
+        {
+            "folded_name": "Azerbaijani (az-AZ)",
+            "native_name": "Azerbaijani",
+            "english_name": "Azerbaijani (az-AZ)",
+            "i18n_tag": "az-AZ"
+        },
+        {
+            "folded_name": "Bashkir (ba-BA)",
+            "native_name": "Bashkir",
+            "english_name": "Bashkir (ba-BA)",
+            "i18n_tag": "ba-BA"
+        },
+        {
+            "folded_name": "Belarusian (be-BY)",
+            "native_name": "Belarusian",
+            "english_name": "Belarusian (be-BY)",
+            "i18n_tag": "be-BY"
+        },
+        {
+            "folded_name": "Bulgarian (bg-BG)",
+            "native_name": "Bulgarian",
+            "english_name": "Bulgarian (bg-BG)",
+            "i18n_tag": "bg-BG"
+        },
+        {
+            "folded_name": "Bislama (bi-BI)",
+            "native_name": "Bislama",
+            "english_name": "Bislama (bi-BI)",
+            "i18n_tag": "bi-BI"
+        },
+        {
+            "folded_name": "Bambara (bm-BM)",
+            "native_name": "Bambara",
+            "english_name": "Bambara (bm-BM)",
+            "i18n_tag": "bm-BM"
+        },
+        {
+            "folded_name": "Bengali (bn-BD)",
+            "native_name": "Bengali",
+            "english_name": "Bengali (bn-BD)",
+            "i18n_tag": "bn-BD"
+        },
+        {
+            "folded_name": "Tibetan (bo-BO)",
+            "native_name": "Tibetan",
+            "english_name": "Tibetan (bo-BO)",
+            "i18n_tag": "bo-BO"
+        },
+        {
+            "folded_name": "Breton (br-BR)",
+            "native_name": "Breton",
+            "english_name": "Breton (br-BR)",
+            "i18n_tag": "br-BR"
+        },
+        {
+            "folded_name": "Bosnian (bs-BS)",
+            "native_name": "Bosnian",
+            "english_name": "Bosnian (bs-BS)",
+            "i18n_tag": "bs-BS"
+        },
+        {
+            "folded_name": "Catalan; Valencian (ca-ES)",
+            "native_name": "Catalan; Valencian",
+            "english_name": "Catalan (ca-ES)",
+            "i18n_tag": "ca-ES"
+        },
+        {
+            "folded_name": "Chechen (ce-CE)",
+            "native_name": "Chechen",
+            "english_name": "Chechen (ce-CE)",
+            "i18n_tag": "ce-CE"
+        },
+        {
+            "folded_name": "Chamorro (ch-GU)",
+            "native_name": "Chamorro",
+            "english_name": "Chamorro (ch-GU)",
+            "i18n_tag": "ch-GU"
+        },
+        {
+            "folded_name": "Cantonese (cn-CN)",
+            "native_name": "Cantonese",
+            "english_name": "Cantonese (cn-CN)",
+            "i18n_tag": "cn-CN"
+        },
+        {
+            "folded_name": "Corsican (co-CO)",
+            "native_name": "Corsican",
+            "english_name": "Corsican (co-CO)",
+            "i18n_tag": "co-CO"
+        },
+        {
+            "folded_name": "Cree (cr-CR)",
+            "native_name": "Cree",
+            "english_name": "Cree (cr-CR)",
+            "i18n_tag": "cr-CR"
+        },
+        {
+            "folded_name": "Czech (cs-CZ)",
+            "native_name": "Czech",
+            "english_name": "Czech (cs-CZ)",
+            "i18n_tag": "cs-CZ"
+        },
+        {
+            "folded_name": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic (cu-CU)",
+            "native_name": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic",
+            "english_name": "Slavic (cu-CU)",
+            "i18n_tag": "cu-CU"
+        },
+        {
+            "folded_name": "Chuvash (cv-CV)",
+            "native_name": "Chuvash",
+            "english_name": "Chuvash (cv-CV)",
+            "i18n_tag": "cv-CV"
+        },
+        {
+            "folded_name": "Welsh (cy-GB)",
+            "native_name": "Welsh",
+            "english_name": "Welsh (cy-GB)",
+            "i18n_tag": "cy-GB"
+        },
+        {
+            "folded_name": "Danish (da-DK)",
+            "native_name": "Danish",
+            "english_name": "Danish (da-DK)",
+            "i18n_tag": "da-DK"
+        },
+        {
+            "folded_name": "German (de-DE)",
+            "native_name": "German",
+            "english_name": "German (de-DE)",
+            "i18n_tag": "de-DE"
+        },
+        {
+            "folded_name": "German (de-AT)",
+            "native_name": "German",
+            "english_name": "German (de-AT)",
+            "i18n_tag": "de-AT"
+        },
+        {
+            "folded_name": "German (de-CH)",
+            "native_name": "German",
+            "english_name": "German (de-CH)",
+            "i18n_tag": "de-CH"
+        },
+        {
+            "folded_name": "Divehi; Dhivehi; Maldivian (dv-DV)",
+            "native_name": "Divehi; Dhivehi; Maldivian",
+            "english_name": "Divehi (dv-DV)",
+            "i18n_tag": "dv-DV"
+        },
+        {
+            "folded_name": "Dzongkha (dz-DZ)",
+            "native_name": "Dzongkha",
+            "english_name": "Dzongkha (dz-DZ)",
+            "i18n_tag": "dz-DZ"
+        },
+        {
+            "folded_name": "Ewe (ee-EE)",
+            "native_name": "Ewe",
+            "english_name": "Ewe (ee-EE)",
+            "i18n_tag": "ee-EE"
+        },
+        {
+            "folded_name": "Greek (el-GR)",
+            "native_name": "Greek",
+            "english_name": "Greek (el-GR)",
+            "i18n_tag": "el-GR"
+        },
+        {
+            "folded_name": "English (en-US)",
+            "native_name": "English",
+            "english_name": "English (en-US)",
+            "i18n_tag": "en-US"
+        },
+        {
+            "folded_name": "English (en-AU)",
+            "native_name": "English",
+            "english_name": "English (en-AU)",
+            "i18n_tag": "en-AU"
+        },
+        {
+            "folded_name": "English (en-CA)",
+            "native_name": "English",
+            "english_name": "English (en-CA)",
+            "i18n_tag": "en-CA"
+        },
+        {
+            "folded_name": "English (en-GB)",
+            "native_name": "English",
+            "english_name": "English (en-GB)",
+            "i18n_tag": "en-GB"
+        },
+        {
+            "folded_name": "English (en-IE)",
+            "native_name": "English",
+            "english_name": "English (en-IE)",
+            "i18n_tag": "en-IE"
+        },
+        {
+            "folded_name": "English (en-NZ)",
+            "native_name": "English",
+            "english_name": "English (en-NZ)",
+            "i18n_tag": "en-NZ"
+        },
+        {
+            "folded_name": "Esperanto (eo-EO)",
+            "native_name": "Esperanto",
+            "english_name": "Esperanto (eo-EO)",
+            "i18n_tag": "eo-EO"
+        },
+        {
+            "folded_name": "Spanish; Castilian (es-ES)",
+            "native_name": "Spanish; Castilian",
+            "english_name": "Spanish (es-ES)",
+            "i18n_tag": "es-ES"
+        },
+        {
+            "folded_name": "Spanish; Castilian (es-MX)",
+            "native_name": "Spanish; Castilian",
+            "english_name": "Spanish (es-MX)",
+            "i18n_tag": "es-MX"
+        },
+        {
+            "folded_name": "Estonian (et-EE)",
+            "native_name": "Estonian",
+            "english_name": "Estonian (et-EE)",
+            "i18n_tag": "et-EE"
+        },
+        {
+            "folded_name": "Basque (eu-ES)",
+            "native_name": "Basque",
+            "english_name": "Basque (eu-ES)",
+            "i18n_tag": "eu-ES"
+        },
+        {
+            "folded_name": "Persian (fa-IR)",
+            "native_name": "Persian",
+            "english_name": "Persian (fa-IR)",
+            "i18n_tag": "fa-IR"
+        },
+        {
+            "folded_name": "Fulah (ff-FF)",
+            "native_name": "Fulah",
+            "english_name": "Fulah (ff-FF)",
+            "i18n_tag": "ff-FF"
+        },
+        {
+            "folded_name": "Finnish (fi-FI)",
+            "native_name": "Finnish",
+            "english_name": "Finnish (fi-FI)",
+            "i18n_tag": "fi-FI"
+        },
+        {
+            "folded_name": "Fijian (fj-FJ)",
+            "native_name": "Fijian",
+            "english_name": "Fijian (fj-FJ)",
+            "i18n_tag": "fj-FJ"
+        },
+        {
+            "folded_name": "Faroese (fo-FO)",
+            "native_name": "Faroese",
+            "english_name": "Faroese (fo-FO)",
+            "i18n_tag": "fo-FO"
+        },
+        {
+            "folded_name": "French (fr-FR)",
+            "native_name": "French",
+            "english_name": "French (fr-FR)",
+            "i18n_tag": "fr-FR"
+        },
+        {
+            "folded_name": "French (fr-CA)",
+            "native_name": "French",
+            "english_name": "French (fr-CA)",
+            "i18n_tag": "fr-CA"
+        },
+        {
+            "folded_name": "Western Frisian (fy-FY)",
+            "native_name": "Western Frisian",
+            "english_name": "Frisian (fy-FY)",
+            "i18n_tag": "fy-FY"
+        },
+        {
+            "folded_name": "Irish (ga-IE)",
+            "native_name": "Irish",
+            "english_name": "Irish (ga-IE)",
+            "i18n_tag": "ga-IE"
+        },
+        {
+            "folded_name": "Gaelic; Scottish Gaelic (gd-GB)",
+            "native_name": "Gaelic; Scottish Gaelic",
+            "english_name": "Gaelic (gd-GB)",
+            "i18n_tag": "gd-GB"
+        },
+        {
+            "folded_name": "Galician (gl-ES)",
+            "native_name": "Galician",
+            "english_name": "Galician (gl-ES)",
+            "i18n_tag": "gl-ES"
+        },
+        {
+            "folded_name": "Guarani (gn-GN)",
+            "native_name": "Guarani",
+            "english_name": "Guarani (gn-GN)",
+            "i18n_tag": "gn-GN"
+        },
+        {
+            "folded_name": "Gujarati (gu-GU)",
+            "native_name": "Gujarati",
+            "english_name": "Gujarati (gu-GU)",
+            "i18n_tag": "gu-GU"
+        },
+        {
+            "folded_name": "Manx (gv-GV)",
+            "native_name": "Manx",
+            "english_name": "Manx (gv-GV)",
+            "i18n_tag": "gv-GV"
+        },
+        {
+            "folded_name": "Hausa (ha-HA)",
+            "native_name": "Hausa",
+            "english_name": "Hausa (ha-HA)",
+            "i18n_tag": "ha-HA"
+        },
+        {
+            "folded_name": "Hebrew (he-IL)",
+            "native_name": "Hebrew",
+            "english_name": "Hebrew (he-IL)",
+            "i18n_tag": "he-IL"
+        },
+        {
+            "folded_name": "Hindi (hi-IN)",
+            "native_name": "Hindi",
+            "english_name": "Hindi (hi-IN)",
+            "i18n_tag": "hi-IN"
+        },
+        {
+            "folded_name": "Hiri Motu (ho-HO)",
+            "native_name": "Hiri Motu",
+            "english_name": "Hiri Motu (ho-HO)",
+            "i18n_tag": "ho-HO"
+        },
+        {
+            "folded_name": "Croatian (hr-HR)",
+            "native_name": "Croatian",
+            "english_name": "Croatian (hr-HR)",
+            "i18n_tag": "hr-HR"
+        },
+        {
+            "folded_name": "Haitian; Haitian Creole (ht-HT)",
+            "native_name": "Haitian; Haitian Creole",
+            "english_name": "Haitian; Haitian Creole (ht-HT)",
+            "i18n_tag": "ht-HT"
+        },
+        {
+            "folded_name": "Hungarian (hu-HU)",
+            "native_name": "Hungarian",
+            "english_name": "Hungarian (hu-HU)",
+            "i18n_tag": "hu-HU"
+        },
+        {
+            "folded_name": "Armenian (hy-HY)",
+            "native_name": "Armenian",
+            "english_name": "Armenian (hy-HY)",
+            "i18n_tag": "hy-HY"
+        },
+        {
+            "folded_name": "Herero (hz-HZ)",
+            "native_name": "Herero",
+            "english_name": "Herero (hz-HZ)",
+            "i18n_tag": "hz-HZ"
+        },
+        {
+            "folded_name": "Interlingua (International Auxiliary Language Association) (ia-IA)",
+            "native_name": "Interlingua (International Auxiliary Language Association)",
+            "english_name": "Interlingua (ia-IA)",
+            "i18n_tag": "ia-IA"
+        },
+        {
+            "folded_name": "Indonesian (id-ID)",
+            "native_name": "Indonesian",
+            "english_name": "Indonesian (id-ID)",
+            "i18n_tag": "id-ID"
+        },
+        {
+            "folded_name": "Interlingue; Occidental (ie-IE)",
+            "native_name": "Interlingue; Occidental",
+            "english_name": "Interlingue (ie-IE)",
+            "i18n_tag": "ie-IE"
+        },
+        {
+            "folded_name": "Igbo (ig-IG)",
+            "native_name": "Igbo",
+            "english_name": "Igbo (ig-IG)",
+            "i18n_tag": "ig-IG"
+        },
+        {
+            "folded_name": "Sichuan Yi; Nuosu (ii-II)",
+            "native_name": "Sichuan Yi; Nuosu",
+            "english_name": "Yi (ii-II)",
+            "i18n_tag": "ii-II"
+        },
+        {
+            "folded_name": "Inupiaq (ik-IK)",
+            "native_name": "Inupiaq",
+            "english_name": "Inupiaq (ik-IK)",
+            "i18n_tag": "ik-IK"
+        },
+        {
+            "folded_name": "Ido (io-IO)",
+            "native_name": "Ido",
+            "english_name": "Ido (io-IO)",
+            "i18n_tag": "io-IO"
+        },
+        {
+            "folded_name": "Icelandic (is-IS)",
+            "native_name": "Icelandic",
+            "english_name": "Icelandic (is-IS)",
+            "i18n_tag": "is-IS"
+        },
+        {
+            "folded_name": "Italian (it-IT)",
+            "native_name": "Italian",
+            "english_name": "Italian (it-IT)",
+            "i18n_tag": "it-IT"
+        },
+        {
+            "folded_name": "Inuktitut (iu-IU)",
+            "native_name": "Inuktitut",
+            "english_name": "Inuktitut (iu-IU)",
+            "i18n_tag": "iu-IU"
+        },
+        {
+            "folded_name": "Japanese (ja-JP)",
+            "native_name": "Japanese",
+            "english_name": "Japanese (ja-JP)",
+            "i18n_tag": "ja-JP"
+        },
+        {
+            "folded_name": "Javanese (jv-JV)",
+            "native_name": "Javanese",
+            "english_name": "Javanese (jv-JV)",
+            "i18n_tag": "jv-JV"
+        },
+        {
+            "folded_name": "Georgian (ka-GE)",
+            "native_name": "Georgian",
+            "english_name": "Georgian (ka-GE)",
+            "i18n_tag": "ka-GE"
+        },
+        {
+            "folded_name": "Kongo (kg-KG)",
+            "native_name": "Kongo",
+            "english_name": "Kongo (kg-KG)",
+            "i18n_tag": "kg-KG"
+        },
+        {
+            "folded_name": "Kikuyu; Gikuyu (ki-KI)",
+            "native_name": "Kikuyu; Gikuyu",
+            "english_name": "Kikuyu (ki-KI)",
+            "i18n_tag": "ki-KI"
+        },
+        {
+            "folded_name": "Kuanyama; Kwanyama (kj-KJ)",
+            "native_name": "Kuanyama; Kwanyama",
+            "english_name": "Kuanyama (kj-KJ)",
+            "i18n_tag": "kj-KJ"
+        },
+        {
+            "folded_name": "Kazakh (kk-KZ)",
+            "native_name": "Kazakh",
+            "english_name": "Kazakh (kk-KZ)",
+            "i18n_tag": "kk-KZ"
+        },
+        {
+            "folded_name": "Kalaallisut; Greenlandic (kl-KL)",
+            "native_name": "Kalaallisut; Greenlandic",
+            "english_name": "Kalaallisut (kl-KL)",
+            "i18n_tag": "kl-KL"
+        },
+        {
+            "folded_name": "Central Khmer (km-KM)",
+            "native_name": "Central Khmer",
+            "english_name": "Khmer (km-KM)",
+            "i18n_tag": "km-KM"
+        },
+        {
+            "folded_name": "Kannada (kn-IN)",
+            "native_name": "Kannada",
+            "english_name": "Kannada (kn-IN)",
+            "i18n_tag": "kn-IN"
+        },
+        {
+            "folded_name": "Korean (ko-KR)",
+            "native_name": "Korean",
+            "english_name": "Korean (ko-KR)",
+            "i18n_tag": "ko-KR"
+        },
+        {
+            "folded_name": "Kanuri (kr-KR)",
+            "native_name": "Kanuri",
+            "english_name": "Kanuri (kr-KR)",
+            "i18n_tag": "kr-KR"
+        },
+        {
+            "folded_name": "Kashmiri (ks-KS)",
+            "native_name": "Kashmiri",
+            "english_name": "Kashmiri (ks-KS)",
+            "i18n_tag": "ks-KS"
+        },
+        {
+            "folded_name": "Kurdish (ku-KU)",
+            "native_name": "Kurdish",
+            "english_name": "Kurdish (ku-KU)",
+            "i18n_tag": "ku-KU"
+        },
+        {
+            "folded_name": "Komi (kv-KV)",
+            "native_name": "Komi",
+            "english_name": "Komi (kv-KV)",
+            "i18n_tag": "kv-KV"
+        },
+        {
+            "folded_name": "Cornish (kw-KW)",
+            "native_name": "Cornish",
+            "english_name": "Cornish (kw-KW)",
+            "i18n_tag": "kw-KW"
+        },
+        {
+            "folded_name": "Kirghiz; Kyrgyz (ky-KG)",
+            "native_name": "Kirghiz; Kyrgyz",
+            "english_name": "Kirghiz (ky-KG)",
+            "i18n_tag": "ky-KG"
+        },
+        {
+            "folded_name": "Latin (la-LA)",
+            "native_name": "Latin",
+            "english_name": "Latin (la-LA)",
+            "i18n_tag": "la-LA"
+        },
+        {
+            "folded_name": "Luxembourgish; Letzeburgesch (lb-LB)",
+            "native_name": "Luxembourgish; Letzeburgesch",
+            "english_name": "Letzeburgesch (lb-LB)",
+            "i18n_tag": "lb-LB"
+        },
+        {
+            "folded_name": "Ganda (lg-LG)",
+            "native_name": "Ganda",
+            "english_name": "Ganda (lg-LG)",
+            "i18n_tag": "lg-LG"
+        },
+        {
+            "folded_name": "Limburgan; Limburger; Limburgish (li-LI)",
+            "native_name": "Limburgan; Limburger; Limburgish",
+            "english_name": "Limburgish (li-LI)",
+            "i18n_tag": "li-LI"
+        },
+        {
+            "folded_name": "Lingala (ln-LN)",
+            "native_name": "Lingala",
+            "english_name": "Lingala (ln-LN)",
+            "i18n_tag": "ln-LN"
+        },
+        {
+            "folded_name": "Lao (lo-LO)",
+            "native_name": "Lao",
+            "english_name": "Lao (lo-LO)",
+            "i18n_tag": "lo-LO"
+        },
+        {
+            "folded_name": "Lithuanian (lt-LT)",
+            "native_name": "Lithuanian",
+            "english_name": "Lithuanian (lt-LT)",
+            "i18n_tag": "lt-LT"
+        },
+        {
+            "folded_name": "Luba-Katanga (lu-LU)",
+            "native_name": "Luba-Katanga",
+            "english_name": "Luba-Katanga (lu-LU)",
+            "i18n_tag": "lu-LU"
+        },
+        {
+            "folded_name": "Latvian (lv-LV)",
+            "native_name": "Latvian",
+            "english_name": "Latvian (lv-LV)",
+            "i18n_tag": "lv-LV"
+        },
+        {
+            "folded_name": "Malagasy (mg-MG)",
+            "native_name": "Malagasy",
+            "english_name": "Malagasy (mg-MG)",
+            "i18n_tag": "mg-MG"
+        },
+        {
+            "folded_name": "Marshallese (mh-MH)",
+            "native_name": "Marshallese",
+            "english_name": "Marshall (mh-MH)",
+            "i18n_tag": "mh-MH"
+        },
+        {
+            "folded_name": "Maori (mi-MI)",
+            "native_name": "Maori",
+            "english_name": "Maori (mi-MI)",
+            "i18n_tag": "mi-MI"
+        },
+        {
+            "folded_name": "Macedonian (mk-MK)",
+            "native_name": "Macedonian",
+            "english_name": "Macedonian (mk-MK)",
+            "i18n_tag": "mk-MK"
+        },
+        {
+            "folded_name": "Malayalam (ml-IN)",
+            "native_name": "Malayalam",
+            "english_name": "Malayalam (ml-IN)",
+            "i18n_tag": "ml-IN"
+        },
+        {
+            "folded_name": "Mongolian (mn-MN)",
+            "native_name": "Mongolian",
+            "english_name": "Mongolian (mn-MN)",
+            "i18n_tag": "mn-MN"
+        },
+        {
+            "folded_name": "Moldavian; Moldovan (mo-MO)",
+            "native_name": "Moldavian; Moldovan",
+            "english_name": "Moldavian (mo-MO)",
+            "i18n_tag": "mo-MO"
+        },
+        {
+            "folded_name": "Marathi (mr-IN)",
+            "native_name": "Marathi",
+            "english_name": "Marathi (mr-IN)",
+            "i18n_tag": "mr-IN"
+        },
+        {
+            "folded_name": "Malay (ms-MY)",
+            "native_name": "Malay",
+            "english_name": "Malay (ms-MY)",
+            "i18n_tag": "ms-MY"
+        },
+        {
+            "folded_name": "Malay (ms-SG)",
+            "native_name": "Malay",
+            "english_name": "Malay (ms-SG)",
+            "i18n_tag": "ms-SG"
+        },
+        {
+            "folded_name": "Maltese (mt-MT)",
+            "native_name": "Maltese",
+            "english_name": "Maltese (mt-MT)",
+            "i18n_tag": "mt-MT"
+        },
+        {
+            "folded_name": "Burmese (my-MY)",
+            "native_name": "Burmese",
+            "english_name": "Burmese (my-MY)",
+            "i18n_tag": "my-MY"
+        },
+        {
+            "folded_name": "Nauru (na-NA)",
+            "native_name": "Nauru",
+            "english_name": "Nauru (na-NA)",
+            "i18n_tag": "na-NA"
+        },
+        {
+            "folded_name": "Bokmal, Norwegian; Norwegian Bokmal (nb-NO)",
+            "native_name": "Bokmål, Norwegian; Norwegian Bokmål",
+            "english_name": "Norwegian Bokmål (nb-NO)",
+            "i18n_tag": "nb-NO"
+        },
+        {
+            "folded_name": "Ndebele, North; North Ndebele (nd-ND)",
+            "native_name": "Ndebele, North; North Ndebele",
+            "english_name": "Ndebele (nd-ND)",
+            "i18n_tag": "nd-ND"
+        },
+        {
+            "folded_name": "Nepali (ne-NE)",
+            "native_name": "Nepali",
+            "english_name": "Nepali (ne-NE)",
+            "i18n_tag": "ne-NE"
+        },
+        {
+            "folded_name": "Ndonga (ng-NG)",
+            "native_name": "Ndonga",
+            "english_name": "Ndonga (ng-NG)",
+            "i18n_tag": "ng-NG"
+        },
+        {
+            "folded_name": "Dutch; Flemish (nl-NL)",
+            "native_name": "Dutch; Flemish",
+            "english_name": "Dutch (nl-NL)",
+            "i18n_tag": "nl-NL"
+        },
+        {
+            "folded_name": "Dutch; Flemish (nl-BE)",
+            "native_name": "Dutch; Flemish",
+            "english_name": "Dutch (nl-BE)",
+            "i18n_tag": "nl-BE"
+        },
+        {
+            "folded_name": "Norwegian Nynorsk; Nynorsk, Norwegian (nn-NN)",
+            "native_name": "Norwegian Nynorsk; Nynorsk, Norwegian",
+            "english_name": "Norwegian Nynorsk (nn-NN)",
+            "i18n_tag": "nn-NN"
+        },
+        {
+            "folded_name": "Norwegian (no-NO)",
+            "native_name": "Norwegian",
+            "english_name": "Norwegian (no-NO)",
+            "i18n_tag": "no-NO"
+        },
+        {
+            "folded_name": "Ndebele, South; South Ndebele (nr-NR)",
+            "native_name": "Ndebele, South; South Ndebele",
+            "english_name": "Ndebele (nr-NR)",
+            "i18n_tag": "nr-NR"
+        },
+        {
+            "folded_name": "Navajo; Navaho (nv-NV)",
+            "native_name": "Navajo; Navaho",
+            "english_name": "Navajo (nv-NV)",
+            "i18n_tag": "nv-NV"
+        },
+        {
+            "folded_name": "Chichewa; Chewa; Nyanja (ny-NY)",
+            "native_name": "Chichewa; Chewa; Nyanja",
+            "english_name": "Chichewa; Nyanja (ny-NY)",
+            "i18n_tag": "ny-NY"
+        },
+        {
+            "folded_name": "Occitan (post 1500) (oc-OC)",
+            "native_name": "Occitan (post 1500)",
+            "english_name": "Occitan (oc-OC)",
+            "i18n_tag": "oc-OC"
+        },
+        {
+            "folded_name": "Ojibwa (oj-OJ)",
+            "native_name": "Ojibwa",
+            "english_name": "Ojibwa (oj-OJ)",
+            "i18n_tag": "oj-OJ"
+        },
+        {
+            "folded_name": "Oromo (om-OM)",
+            "native_name": "Oromo",
+            "english_name": "Oromo (om-OM)",
+            "i18n_tag": "om-OM"
+        },
+        {
+            "folded_name": "Oriya (or-OR)",
+            "native_name": "Oriya",
+            "english_name": "Oriya (or-OR)",
+            "i18n_tag": "or-OR"
+        },
+        {
+            "folded_name": "Ossetian; Ossetic (os-OS)",
+            "native_name": "Ossetian; Ossetic",
+            "english_name": "Ossetian; Ossetic (os-OS)",
+            "i18n_tag": "os-OS"
+        },
+        {
+            "folded_name": "Panjabi; Punjabi (pa-IN)",
+            "native_name": "Panjabi; Punjabi",
+            "english_name": "Punjabi (pa-IN)",
+            "i18n_tag": "pa-IN"
+        },
+        {
+            "folded_name": "Pali (pi-PI)",
+            "native_name": "Pali",
+            "english_name": "Pali (pi-PI)",
+            "i18n_tag": "pi-PI"
+        },
+        {
+            "folded_name": "Polish (pl-PL)",
+            "native_name": "Polish",
+            "english_name": "Polish (pl-PL)",
+            "i18n_tag": "pl-PL"
+        },
+        {
+            "folded_name": "Pushto; Pashto (ps-PS)",
+            "native_name": "Pushto; Pashto",
+            "english_name": "Pushto (ps-PS)",
+            "i18n_tag": "ps-PS"
+        },
+        {
+            "folded_name": "Portuguese (pt-PT)",
+            "native_name": "Portuguese",
+            "english_name": "Portuguese (pt-PT)",
+            "i18n_tag": "pt-PT"
+        },
+        {
+            "folded_name": "Portuguese (pt-BR)",
+            "native_name": "Portuguese",
+            "english_name": "Portuguese (pt-BR)",
+            "i18n_tag": "pt-BR"
+        },
+        {
+            "folded_name": "Quechua (qu-QU)",
+            "native_name": "Quechua",
+            "english_name": "Quechua (qu-QU)",
+            "i18n_tag": "qu-QU"
+        },
+        {
+            "folded_name": "Romansh (rm-RM)",
+            "native_name": "Romansh",
+            "english_name": "Raeto-Romance (rm-RM)",
+            "i18n_tag": "rm-RM"
+        },
+        {
+            "folded_name": "Rundi (rn-RN)",
+            "native_name": "Rundi",
+            "english_name": "Rundi (rn-RN)",
+            "i18n_tag": "rn-RN"
+        },
+        {
+            "folded_name": "Romanian (ro-RO)",
+            "native_name": "Romanian",
+            "english_name": "Romanian (ro-RO)",
+            "i18n_tag": "ro-RO"
+        },
+        {
+            "folded_name": "Russian (ru-RU)",
+            "native_name": "Russian",
+            "english_name": "Russian (ru-RU)",
+            "i18n_tag": "ru-RU"
+        },
+        {
+            "folded_name": "Kinyarwanda (rw-RW)",
+            "native_name": "Kinyarwanda",
+            "english_name": "Kinyarwanda (rw-RW)",
+            "i18n_tag": "rw-RW"
+        },
+        {
+            "folded_name": "Sanskrit (sa-SA)",
+            "native_name": "Sanskrit",
+            "english_name": "Sanskrit (sa-SA)",
+            "i18n_tag": "sa-SA"
+        },
+        {
+            "folded_name": "Sardinian (sc-SC)",
+            "native_name": "Sardinian",
+            "english_name": "Sardinian (sc-SC)",
+            "i18n_tag": "sc-SC"
+        },
+        {
+            "folded_name": "Sindhi (sd-SD)",
+            "native_name": "Sindhi",
+            "english_name": "Sindhi (sd-SD)",
+            "i18n_tag": "sd-SD"
+        },
+        {
+            "folded_name": "Northern Sami (se-SE)",
+            "native_name": "Northern Sami",
+            "english_name": "Northern Sami (se-SE)",
+            "i18n_tag": "se-SE"
+        },
+        {
+            "folded_name": "Sango (sg-SG)",
+            "native_name": "Sango",
+            "english_name": "Sango (sg-SG)",
+            "i18n_tag": "sg-SG"
+        },
+        {
+            "folded_name": "Serbo-Croatian (sh-SH)",
+            "native_name": "Serbo-Croatian",
+            "english_name": "Serbo-Croatian (sh-SH)",
+            "i18n_tag": "sh-SH"
+        },
+        {
+            "folded_name": "Sinhala; Sinhalese (si-LK)",
+            "native_name": "Sinhala; Sinhalese",
+            "english_name": "Sinhalese (si-LK)",
+            "i18n_tag": "si-LK"
+        },
+        {
+            "folded_name": "Slovak (sk-SK)",
+            "native_name": "Slovak",
+            "english_name": "Slovak (sk-SK)",
+            "i18n_tag": "sk-SK"
+        },
+        {
+            "folded_name": "Slovenian (sl-SI)",
+            "native_name": "Slovenian",
+            "english_name": "Slovenian (sl-SI)",
+            "i18n_tag": "sl-SI"
+        },
+        {
+            "folded_name": "Samoan (sm-SM)",
+            "native_name": "Samoan",
+            "english_name": "Samoan (sm-SM)",
+            "i18n_tag": "sm-SM"
+        },
+        {
+            "folded_name": "Shona (sn-SN)",
+            "native_name": "Shona",
+            "english_name": "Shona (sn-SN)",
+            "i18n_tag": "sn-SN"
+        },
+        {
+            "folded_name": "Somali (so-SO)",
+            "native_name": "Somali",
+            "english_name": "Somali (so-SO)",
+            "i18n_tag": "so-SO"
+        },
+        {
+            "folded_name": "Albanian (sq-AL)",
+            "native_name": "Albanian",
+            "english_name": "Albanian (sq-AL)",
+            "i18n_tag": "sq-AL"
+        },
+        {
+            "folded_name": "Serbian (sr-RS)",
+            "native_name": "Serbian",
+            "english_name": "Serbian (sr-RS)",
+            "i18n_tag": "sr-RS"
+        },
+        {
+            "folded_name": "Swati (ss-SS)",
+            "native_name": "Swati",
+            "english_name": "Swati (ss-SS)",
+            "i18n_tag": "ss-SS"
+        },
+        {
+            "folded_name": "Sotho, Southern (st-ST)",
+            "native_name": "Sotho, Southern",
+            "english_name": "Sotho (st-ST)",
+            "i18n_tag": "st-ST"
+        },
+        {
+            "folded_name": "Sundanese (su-SU)",
+            "native_name": "Sundanese",
+            "english_name": "Sundanese (su-SU)",
+            "i18n_tag": "su-SU"
+        },
+        {
+            "folded_name": "Swedish (sv-SE)",
+            "native_name": "Swedish",
+            "english_name": "Swedish (sv-SE)",
+            "i18n_tag": "sv-SE"
+        },
+        {
+            "folded_name": "Swahili (sw-SW)",
+            "native_name": "Swahili",
+            "english_name": "Swahili (sw-SW)",
+            "i18n_tag": "sw-SW"
+        },
+        {
+            "folded_name": "Tamil (ta-IN)",
+            "native_name": "Tamil",
+            "english_name": "Tamil (ta-IN)",
+            "i18n_tag": "ta-IN"
+        },
+        {
+            "folded_name": "Telugu (te-IN)",
+            "native_name": "Telugu",
+            "english_name": "Telugu (te-IN)",
+            "i18n_tag": "te-IN"
+        },
+        {
+            "folded_name": "Tajik (tg-TG)",
+            "native_name": "Tajik",
+            "english_name": "Tajik (tg-TG)",
+            "i18n_tag": "tg-TG"
+        },
+        {
+            "folded_name": "Thai (th-TH)",
+            "native_name": "Thai",
+            "english_name": "Thai (th-TH)",
+            "i18n_tag": "th-TH"
+        },
+        {
+            "folded_name": "Tigrinya (ti-TI)",
+            "native_name": "Tigrinya",
+            "english_name": "Tigrinya (ti-TI)",
+            "i18n_tag": "ti-TI"
+        },
+        {
+            "folded_name": "Turkmen (tk-TK)",
+            "native_name": "Turkmen",
+            "english_name": "Turkmen (tk-TK)",
+            "i18n_tag": "tk-TK"
+        },
+        {
+            "folded_name": "Tagalog (tl-PH)",
+            "native_name": "Tagalog",
+            "english_name": "Tagalog (tl-PH)",
+            "i18n_tag": "tl-PH"
+        },
+        {
+            "folded_name": "Tswana (tn-TN)",
+            "native_name": "Tswana",
+            "english_name": "Tswana (tn-TN)",
+            "i18n_tag": "tn-TN"
+        },
+        {
+            "folded_name": "Tonga (Tonga Islands) (to-TO)",
+            "native_name": "Tonga (Tonga Islands)",
+            "english_name": "Tonga (to-TO)",
+            "i18n_tag": "to-TO"
+        },
+        {
+            "folded_name": "Turkish (tr-TR)",
+            "native_name": "Turkish",
+            "english_name": "Turkish (tr-TR)",
+            "i18n_tag": "tr-TR"
+        },
+        {
+            "folded_name": "Tsonga (ts-TS)",
+            "native_name": "Tsonga",
+            "english_name": "Tsonga (ts-TS)",
+            "i18n_tag": "ts-TS"
+        },
+        {
+            "folded_name": "Tatar (tt-TT)",
+            "native_name": "Tatar",
+            "english_name": "Tatar (tt-TT)",
+            "i18n_tag": "tt-TT"
+        },
+        {
+            "folded_name": "Twi (tw-TW)",
+            "native_name": "Twi",
+            "english_name": "Twi (tw-TW)",
+            "i18n_tag": "tw-TW"
+        },
+        {
+            "folded_name": "Tahitian (ty-TY)",
+            "native_name": "Tahitian",
+            "english_name": "Tahitian (ty-TY)",
+            "i18n_tag": "ty-TY"
+        },
+        {
+            "folded_name": "Uighur; Uyghur (ug-UG)",
+            "native_name": "Uighur; Uyghur",
+            "english_name": "Uighur (ug-UG)",
+            "i18n_tag": "ug-UG"
+        },
+        {
+            "folded_name": "Ukrainian (uk-UA)",
+            "native_name": "Ukrainian",
+            "english_name": "Ukrainian (uk-UA)",
+            "i18n_tag": "uk-UA"
+        },
+        {
+            "folded_name": "Urdu (ur-UR)",
+            "native_name": "Urdu",
+            "english_name": "Urdu (ur-UR)",
+            "i18n_tag": "ur-UR"
+        },
+        {
+            "folded_name": "Uzbek (uz-UZ)",
+            "native_name": "Uzbek",
+            "english_name": "Uzbek (uz-UZ)",
+            "i18n_tag": "uz-UZ"
+        },
+        {
+            "folded_name": "Venda (ve-VE)",
+            "native_name": "Venda",
+            "english_name": "Venda (ve-VE)",
+            "i18n_tag": "ve-VE"
+        },
+        {
+            "folded_name": "Vietnamese (vi-VN)",
+            "native_name": "Vietnamese",
+            "english_name": "Vietnamese (vi-VN)",
+            "i18n_tag": "vi-VN"
+        },
+        {
+            "folded_name": "Volapuk (vo-VO)",
+            "native_name": "Volapük",
+            "english_name": "Volapük (vo-VO)",
+            "i18n_tag": "vo-VO"
+        },
+        {
+            "folded_name": "Walloon (wa-WA)",
+            "native_name": "Walloon",
+            "english_name": "Walloon (wa-WA)",
+            "i18n_tag": "wa-WA"
+        },
+        {
+            "folded_name": "Wolof (wo-WO)",
+            "native_name": "Wolof",
+            "english_name": "Wolof (wo-WO)",
+            "i18n_tag": "wo-WO"
+        },
+        {
+            "folded_name": "Xhosa (xh-XH)",
+            "native_name": "Xhosa",
+            "english_name": "Xhosa (xh-XH)",
+            "i18n_tag": "xh-XH"
+        },
+        {
+            "folded_name": "No Language (xx-XX)",
+            "native_name": "No Language",
+            "english_name": "No Language (xx-XX)",
+            "i18n_tag": "xx-XX"
+        },
+        {
+            "folded_name": "Yiddish (yi-YI)",
+            "native_name": "Yiddish",
+            "english_name": "Yiddish (yi-YI)",
+            "i18n_tag": "yi-YI"
+        },
+        {
+            "folded_name": "Yoruba (yo-YO)",
+            "native_name": "Yoruba",
+            "english_name": "Yoruba (yo-YO)",
+            "i18n_tag": "yo-YO"
+        },
+        {
+            "folded_name": "Zhuang; Chuang (za-ZA)",
+            "native_name": "Zhuang; Chuang",
+            "english_name": "Zhuang (za-ZA)",
+            "i18n_tag": "za-ZA"
+        },
+        {
+            "folded_name": "Chinese (zh-CN)",
+            "native_name": "Chinese",
+            "english_name": "Mandarin (zh-CN)",
+            "i18n_tag": "zh-CN"
+        },
+        {
+            "folded_name": "Chinese (zh-HK)",
+            "native_name": "Chinese",
+            "english_name": "Mandarin (zh-HK)",
+            "i18n_tag": "zh-HK"
+        },
+        {
+            "folded_name": "Chinese (zh-SG)",
+            "native_name": "Chinese",
+            "english_name": "Mandarin (zh-SG)",
+            "i18n_tag": "zh-SG"
+        },
+        {
+            "folded_name": "Chinese (zh-TW)",
+            "native_name": "Chinese",
+            "english_name": "Mandarin (zh-TW)",
+            "i18n_tag": "zh-TW"
+        },
+        {
+            "folded_name": "Zulu (zu-ZA)",
+            "native_name": "Zulu",
+            "english_name": "Zulu (zu-ZA)",
+            "i18n_tag": "zu-ZA"
+        }
+    ]
+}

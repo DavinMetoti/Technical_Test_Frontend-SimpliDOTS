@@ -1,0 +1,50 @@
+<div class="layout-topbar">
+    <div class="layout-topbar-logo">
+        <img src="assets/layout/images/{{layoutService.config.colorScheme === 'light' ? 'logo-white' : 'logo-dark'}}.png"
+            alt="logo" width="100%">
+    </div>
+
+    <button #menubutton class="p-link layout-menu-button layout-topbar-button" (click)="layoutService.onMenuToggle()">
+        <i class="pi pi-bars"></i>
+    </button>
+
+    <button #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button"
+        (click)="layoutService.showProfileSidebar()">
+        <i class="pi pi-ellipsis-v"></i>
+    </button>
+
+    <div #topbarmenu class="layout-topbar-menu"
+        [ngClass]="{'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible}">
+        <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input type="text" pInputText placeholder="Search Movie..." [ngModel]="keyword"
+                (ngModelChange)="keyword = $event" (keydown.enter)="searchMovie(keyword)" />
+        </span>
+
+        <button class="p-link layout-topbar-button" *ngIf="layoutService.config.colorScheme === 'light'"
+            (click)="changeTheme('lara-dark-blue', 'dark')">
+            <i class="pi pi-sun"></i>
+            <span>Light Mode</span>
+        </button>
+        <button class="p-link layout-topbar-button" *ngIf="layoutService.config.colorScheme !== 'light'"
+            (click)="changeTheme('lara-light-blue', 'light')">
+            <i class="pi pi-moon"></i>
+            <span>Dark Mode</span>
+        </button>
+        <button *ngIf="!isLogin" class="p-link layout-topbar-button" (click)="login()" pTooltip="Login"
+            tooltipPosition="left">
+            <i class="pi pi-sign-in"></i>
+            <span>Login</span>
+        </button>
+        <button *ngIf="isLogin" class="p-link layout-topbar-button" (click)="logout()" pTooltip="Logout"
+            tooltipPosition="left">
+            <i class="pi pi-sign-out"></i>
+            <span>Logout</span>
+        </button>
+        <button *ngIf="isLogin" class="p-link layout-topbar-button" (click)="profile()" pTooltip="Profile"
+            tooltipPosition="left">
+            <i class="pi pi-user"></i>
+            <span>Profile</span>
+        </button>
+    </div>
+</div>

@@ -1,0 +1,107 @@
+<p-toast></p-toast>
+<div *ngIf="movie != undefined">
+
+    <div class="grid">
+        <div class="col-12 lg:col-4">
+            <img [src]="img + movie.poster_path" [alt]="movie.title" style="border-radius: 10px;" width="100%">
+        </div>
+        <div class="col-12 lg:col-8">
+            <h2>
+                {{ movie.title.toUpperCase() }}
+                <h4>{{ movie.tagline.toUpperCase() }}</h4>
+            </h2>
+            <div class="mt-3 grid">
+                <div class="col-6">
+                    <p-rating [(ngModel)]="movie.rate" [readonly]="true" [cancel]="false"></p-rating>
+                </div>
+                <div class="col-6">
+                    {{movie.spoken_languages[0].english_name.toUpperCase()}}/{{movie.runtime}} MIN./{{
+                    movie.release_date |
+                    date:'yyyy' }}
+                </div>
+            </div>
+
+            <div class="mt-3">
+                <h5>THE GENRE</h5>
+                <button pButton *ngFor="let genre of movie.genres" icon="pi pi-circle-fill"
+                    class="p-button p-button-text p-button-warning mr-2 mt-2" [label]="genre.name.toUpperCase()"
+                    [routerLink]="['/list/genre/', genre.id]"></button>
+            </div>
+
+            <div class="mt-3">
+                <h5 class="mb-2">THE SYNOPSIS</h5>
+                <p style="text-align: justify;">{{movie.overview}}</p>
+            </div>
+
+            <div class="grid">
+                <div class="col-8">
+                    <div class="mt-3">
+                        <button pButton icon="pi pi-link" class="p-button p-button-outlined mr-2 mt-2" label="Website"
+                            (click)="openWebsite(movie.homepage)"></button>
+                        <button pButton icon="pi pi-video" class="p-button p-button-outlined mr-2 mt-2" label="IMDB"
+                            (click)="openWebsite('https://imdb.com/title/'+movie.imdb_id)"></button>
+                        <button pButton icon="pi pi-bookmark" class="p-button p-button-outlined mr-2 mt-2"
+                            label="Favorit" (click)="addFavorit(movie.id)"></button>
+                    </div>
+                </div>
+                <div class="col-4 p-fluid">
+                    <div class="mt-3">
+                        <button pButton icon="pi pi-arrow-circle-left"
+                            class="p-button p-button-outlined mr-2 mt-2 p-button-danger" label="Back To Home"
+                            routerLink="/list/category/"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="mt-5">
+        <h2>RECOMMENDED<h4>MOVIE</h4>
+        </h2>
+        <div class="p-fluid" *ngIf="recommend.length > 0">
+            <div class="col-12">
+                <div class="grid">
+                    <div class="col-6 lg:col-3" *ngFor="let movieList of recommend">
+                        <a [routerLink]="['/detail/movie', movieList.id]">
+                            <div class="field">
+                                <img [src]="img + movieList.poster_path" [alt]="movieList.title" loading="lazy"
+                                    style="border-radius: 10px;" width="100%">
+                                <div class=" text-center">
+                                    <h5 class="title-movie">{{movieList.title}}</h5>
+                                </div>
+                                <div class="mt-2 text-center">
+                                    <div>
+                                        <p-rating [(ngModel)]="movieList.rate" [readonly]="true" [cancel]="false"
+                                            size="small"></p-rating>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-3" *ngIf="recommend.length == 0">
+            <h5>Sorry, No Result <img src="https://primefaces.org/cdn/primeng/images/package/rating/custom-icon.png"
+                    width="20px" height="20px" /></h5>
+        </div>
+    </div>
+
+</div>
+
+<div class="justify-content-center text-center">
+    <p-progressSpinner styleClass="w-4rem h-4rem " strokeWidth="8" fill="var(--surface-ground)" *ngIf="loading"
+        animationDuration=".5s"></p-progressSpinner>
+</div>
+
+<p-dialog [(visible)]="visible" [style]="{width: '30vw'}" [modal]="true" [draggable]="false">
+    <div class="justify-content-center text-center">
+        <h3 class="mb-3">
+            PLEASE LOGIN BEFORE ADD MOVIE
+        </h3>
+        <img src="./assets/layout/images/say-no.png" alt="No User" width="30%">
+    </div>
+</p-dialog>
