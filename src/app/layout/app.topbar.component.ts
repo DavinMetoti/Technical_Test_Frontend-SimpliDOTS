@@ -47,13 +47,15 @@ export class AppTopBarComponent implements OnInit {
     changeTheme(theme: string, colorScheme: string) {
         const themeLink = <HTMLLinkElement>document.getElementById('theme-css');
         const newHref = themeLink.getAttribute('href')!.replace(this.layoutService.config.theme, theme);
-        this.layoutService.config.colorScheme
-        this.replaceThemeLink(newHref, () => {
-            this.layoutService.config.theme = theme;
-            this.layoutService.config.colorScheme = colorScheme;
-            this.layoutService.onConfigUpdate();
-        });
+        if (this.layoutService.config.colorScheme !== colorScheme) {
+            this.replaceThemeLink(newHref, () => {
+                this.layoutService.config.theme = theme;
+                this.layoutService.config.colorScheme = colorScheme;
+                this.layoutService.onConfigUpdate();
+            });
+        }
     }
+
 
     replaceThemeLink(href: string, onComplete: Function) {
         const id = 'theme-css';

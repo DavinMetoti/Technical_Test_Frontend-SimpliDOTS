@@ -9,7 +9,7 @@
         "lint": "ng lint",
         "e2e": "ng e2e",
         "start-pwa": "ng build --configuration production && http-server -p 8080 -c-1 dist/dapp-movie",
-        "predeploy": "ng build --prod --base-href=/dapp-movie/",
+        "predeploy": "ng build --configuration production --base-href=/dapp-movie/",
         "deploy": "npx gh-pages -d dist/dapp-movie"
     },
     "private": true,
