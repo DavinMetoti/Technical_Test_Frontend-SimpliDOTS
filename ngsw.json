@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698216606104,
+  "timestamp": 1698240258993,
   "index": "/dapp-movie/index.html",
   "assetGroups": [
     {
@@ -21,7 +21,7 @@
         "/dapp-movie/common.8c8d8e044a4cb250.js",
         "/dapp-movie/favicon.ico",
         "/dapp-movie/index.html",
-        "/dapp-movie/main.c3d60a94421a4f0b.js",
+        "/dapp-movie/main.526d864577c1c288.js",
         "/dapp-movie/manifest.webmanifest",
         "/dapp-movie/polyfills.468e92837b53d741.js",
         "/dapp-movie/runtime.47216f5bd8e0a565.js",
@@ -115,10 +115,10 @@
     "/dapp-movie/assets/layout/styles/theme/lara-light-blue/theme.css": "fa13e2adfeae49701241cd448f1c08edfec8eeec",
     "/dapp-movie/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
     "/dapp-movie/common.8c8d8e044a4cb250.js": "6ca13f64af74a0b5f344cc37e645f39e5bf6e383",
-    "/dapp-movie/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/dapp-movie/favicon.ico": "b7ff576eeb15466c43043f56f43ddda96bc5ea46",
     "/dapp-movie/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "/dapp-movie/index.html": "f0ca0bf299769fa3e3f59d61bc8a2356d5516086",
-    "/dapp-movie/main.c3d60a94421a4f0b.js": "1ee86077e69eba8a6f26fd1b9ae8a2bc7a5b51fe",
+    "/dapp-movie/index.html": "7b5044c134767e521ea63bef05b8b92e8d9ff966",
+    "/dapp-movie/main.526d864577c1c288.js": "5b4a8130aedb18b255c42f79daf0241eb1b4397c",
     "/dapp-movie/manifest.webmanifest": "06965a6e8e1820570be7e55d7ddc3b782b8965ba",
     "/dapp-movie/polyfills.468e92837b53d741.js": "fda10a4f7a66d53b1182ed1f1f061a7eb257179a",
     "/dapp-movie/primeicons.0112589c5695a9ed.ttf": "ceeb46d594fde5cc507cdf8b70e38e78fe47653c",
