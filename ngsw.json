@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698242562182,
+  "timestamp": 1698242710263,
   "index": "/Technical_Test_Frontend-SimpliDOTS/index.html",
   "assetGroups": [
     {
@@ -117,7 +117,7 @@
     "/Technical_Test_Frontend-SimpliDOTS/common.8c8d8e044a4cb250.js": "6ca13f64af74a0b5f344cc37e645f39e5bf6e383",
     "/Technical_Test_Frontend-SimpliDOTS/favicon.ico": "b7ff576eeb15466c43043f56f43ddda96bc5ea46",
     "/Technical_Test_Frontend-SimpliDOTS/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "/Technical_Test_Frontend-SimpliDOTS/index.html": "9aab5137f1e3d763bafea728f20e877b36c448ea",
+    "/Technical_Test_Frontend-SimpliDOTS/index.html": "f597b75f302cee3b72f328ba408af8c64793cc31",
     "/Technical_Test_Frontend-SimpliDOTS/main.c3d60a94421a4f0b.js": "1ee86077e69eba8a6f26fd1b9ae8a2bc7a5b51fe",
     "/Technical_Test_Frontend-SimpliDOTS/manifest.webmanifest": "06965a6e8e1820570be7e55d7ddc3b782b8965ba",
     "/Technical_Test_Frontend-SimpliDOTS/polyfills.468e92837b53d741.js": "fda10a4f7a66d53b1182ed1f1f061a7eb257179a",
