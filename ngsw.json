@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1698241033874,
+  "timestamp": 1698241516461,
   "index": "/dapp-movie/index.html",
   "assetGroups": [
     {
@@ -21,10 +21,11 @@
         "/dapp-movie/common.8c8d8e044a4cb250.js",
         "/dapp-movie/favicon.ico",
         "/dapp-movie/index.html",
-        "/dapp-movie/main.77af25c7864184e5.js",
+        "/dapp-movie/main.526d864577c1c288.js",
         "/dapp-movie/manifest.webmanifest",
         "/dapp-movie/polyfills.468e92837b53d741.js",
         "/dapp-movie/runtime.47216f5bd8e0a565.js",
+        "/dapp-movie/scripts.011fbf938f04b525.js",
         "/dapp-movie/styles.b3d6169f8a9eb05c.css"
       ],
       "patterns": []
@@ -116,8 +117,8 @@
     "/dapp-movie/common.8c8d8e044a4cb250.js": "6ca13f64af74a0b5f344cc37e645f39e5bf6e383",
     "/dapp-movie/favicon.ico": "b7ff576eeb15466c43043f56f43ddda96bc5ea46",
     "/dapp-movie/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "/dapp-movie/index.html": "7a4536c1f09f8757d16dd8b3566c5547ad8b0665",
-    "/dapp-movie/main.77af25c7864184e5.js": "6554afcf70c07a83dd17e0efda469cd5fa502a06",
+    "/dapp-movie/index.html": "7b5044c134767e521ea63bef05b8b92e8d9ff966",
+    "/dapp-movie/main.526d864577c1c288.js": "5b4a8130aedb18b255c42f79daf0241eb1b4397c",
     "/dapp-movie/manifest.webmanifest": "06965a6e8e1820570be7e55d7ddc3b782b8965ba",
     "/dapp-movie/polyfills.468e92837b53d741.js": "fda10a4f7a66d53b1182ed1f1f061a7eb257179a",
     "/dapp-movie/primeicons.0112589c5695a9ed.ttf": "ceeb46d594fde5cc507cdf8b70e38e78fe47653c",
@@ -125,6 +126,7 @@
     "/dapp-movie/primeicons.ba3f916dfb64be8c.woff2": "55a4b2a5f02e362405d8d874903af0b5f6a6c15d",
     "/dapp-movie/primeicons.f8b9e8a4e401b603.woff": "b1648b50be13350fde8b5d9a6fe78354ddcc43e4",
     "/dapp-movie/runtime.47216f5bd8e0a565.js": "01cabb8f0951b86a38f68bdbdb610daaccf96716",
+    "/dapp-movie/scripts.011fbf938f04b525.js": "9ce476521176f00ae9aa6b4c43cf7d747981a3e4",
     "/dapp-movie/styles.b3d6169f8a9eb05c.css": "4bd7346444930e0136f79628f1c433639d5734fa"
   },
   "navigationUrls": [
