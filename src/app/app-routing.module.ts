@@ -35,7 +35,7 @@ const routes: Routes = [
             { path: 'profile', loadChildren: () => import('./package/components/profile/profile.module').then(m => m.ProfileModule) },
         ]
     },
-    { path: '**', redirectTo: '' },
+    { path: '**', redirectTo: 'list/category' },
 ];
 
 @NgModule({
