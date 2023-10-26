@@ -78,7 +78,7 @@ export class AppTopBarComponent implements OnInit {
 
     login() {
         this.api.requestToken().subscribe((requestToken: string) => {
-            const authUrl = `${environment.baseUrl}/authenticate/${requestToken}?redirect_to=${window.location.origin}`;
+            const authUrl = `${environment.baseUrl}/authenticate/${requestToken}`;
             localStorage.setItem('accessToken', requestToken)
             window.location.href = authUrl;
             this.getSession
