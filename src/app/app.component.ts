@@ -11,5 +11,14 @@ export class AppComponent implements OnInit {
 
     ngOnInit() {
         this.primengConfig.ripple = true;
+        const defaultLang = {
+            iso_639_1: "en",
+            english_name: "English",
+            name: "English"
+        }
+        const language = localStorage.getItem('language')
+        if (!language) {
+            localStorage.setItem('language', JSON.stringify(defaultLang))
+        }
     }
 }
